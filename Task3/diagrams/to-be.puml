@@ -1,0 +1,63 @@
+@startuml to-be
+!pragma layout smetana
+!define RELATIVE_INCLUDE
+!include ../../../Diagrams/vendor/C4-PlantUML/C4_Container.puml
+LAYOUT_TOP_DOWN()
+skinparam legendFontColor #333333
+skinparam legendBackgroundColor #FFFFFF
+skinparam legendBorderColor #888888
+title VitaStore — TO-BE HLD — Cloud POS, HAL и offline cash
+
+Person(cashier, "Кассир", "Работает через управляемый POS")
+System_Boundary(store, "Магазин — планшет и периферия; отдельного сервера нет") {
+ Container(pos, "Лёгкий POS + Sync Agent", "Managed tablet app / offline SDK", "Каталог, продажа, outbox; фиксирует версию корзины")
+ ContainerDb(local, "Локальный каталог и journal", "Encrypted embedded storage", "Ограниченное durable состояние на планшете; без DB server")
+ Container(hal, "HAL / Device Gateway", "Локальный агент / vendor SDK", "Стабильный порт POS; подписанные адаптеры устройств")
+ System_Ext(fiscal, "Фискальный регистратор", "ККТ / ФН; наличный чек локально")
+ System_Ext(terminal, "Банковский терминал", "Только сертифицированная пара устройство / адаптер")
+}
+System_Boundary(cloud, "Cloud — SaaS и собственные приложения на PaaS") {
+ Container(backend, "Cloud POS Backend", "SaaS", "Receipt inbox, каталог, магазин; durable ACK")
+ Container(payment, "Payment Gateway", "SaaS / gateway", "Конфигурации терминалов и сверка оплат")
+ Container(loyalty, "Loyalty", "SaaS", "Центральный бонусный ledger; online redemption")
+ Container(fleet, "Fleet / MDM", "SaaS", "Версии, enrollment, сертификаты и диагностика")
+ Container(integration, "Integration Service", "PaaS; модульное приложение", "ERP adapter, SKU matching, approval, catalog publish")
+ ContainerQueue(queue, "Integration Queue", "Managed Message Queue", "At-least-once; отдельные очереди/ACL")
+ ContainerDb(db, "Integration Store", "Managed PostgreSQL HA", "Jobs, mappings, inbox/outbox, external IDs")
+ ContainerDb(objects, "Версионированные объекты", "Object Storage", "Исходные файлы, manifests, подписанные каталоги")
+ Container(logistics, "Smart Fulfillment", "Собственное приложение на PaaS", "Логистика и C&C; учитывает свежесть остатков")
+ Container(promo, "Promo Engine", "Собственное приложение на PaaS", "Публикация версионированных правил промо")
+}
+System_Ext(sap, "SAP ERP — HQ on-premises", "Master и бухгалтерский учёт; перенос отдельным бизнес-кейсом")
+System_Ext(bank, "Эквайер", "Подтверждение и сверка банковских платежей")
+System_Ext(ofd, "ОФД", "Получение фискальных документов")
+
+Rel(cashier, pos, "Продажа / смена", "UI")
+Rel(pos, local, "Каталог + journal до внешнего эффекта", "Local transaction")
+Rel(pos, hal, "Payment / fiscal commands + operation ID", "Защищённый local IPC")
+Rel(hal, fiscal, "Фискализация / статус", "USB / COM; vendor SDK")
+Rel(hal, terminal, "Оплата / статус", "Сертифицированный адаптер")
+Rel(terminal, bank, "Платёж по доступному каналу", "Протокол эквайера")
+Rel(fiscal, ofd, "Фискальные документы", "Штатный протокол; после восстановления связи")
+Rel(pos, backend, "Пакеты продаж / ACK; catalog versions", "HTTPS; retry того же ID")
+Rel(pos, payment, "Online payment config / status", "HTTPS")
+Rel(payment, bank, "Online-сверка и статусы", "API эквайера")
+Rel(pos, loyalty, "Бонусы online / pending accrual", "HTTPS; offline redemption запрещён")
+Rel(fleet, pos, "Управляемые версии / права", "Device management")
+Rel(backend, queue, "Подтверждённые продажи", "Outbox / at-least-once")
+Rel(queue, integration, "Учет и сверка", "Consumer + inbox")
+Rel(integration, db, "Состояние задач и дедупликация", "SQL / ACID")
+Rel(integration, sap, "Staging import / status / master export", "API или controlled batch через VPN")
+Rel(integration, objects, "Версии каталога и mapping", "S3 API")
+Rel(objects, backend, "Публикация подтверждённого каталога", "Versioned contract")
+Rel(queue, logistics, "Продажи / freshness магазина", "Async")
+Rel(logistics, backend, "C&C операции", "API / events")
+Rel(promo, backend, "Версии правил промо", "Versioned contract")
+
+legend bottom
+  HAL локальный: облако не обращается напрямую к USB. Неизвестные модели требуют SDK или замены.
+  Offline: cash для допустимых товаров; durable journal → fiscal status → идемпотентный replay.
+  Платёж картой подтверждает эквайер; timeout не равен отказу. C&C учитывает stale-store.
+  Внутренние БД SaaS не показаны: ими владеет поставщик. Own integration DB не общая БД сервисов.
+endlegend
+@enduml

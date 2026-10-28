@@ -1,0 +1,51 @@
+@startuml as-is
+!pragma layout smetana
+!define RELATIVE_INCLUDE
+!include ../../../Diagrams/vendor/C4-PlantUML/C4_Container.puml
+LAYOUT_TOP_DOWN()
+skinparam legendFontColor #333333
+skinparam legendBackgroundColor #FFFFFF
+skinparam legendBorderColor #888888
+title VitaStore — исправленная AS-IS — C4 Container
+
+Person(cashier, "Кассир", "Продажи и смена")
+Person(engineer, "Выездной IT-инженер", "Экспорт базы новой точки")
+Person(merch, "Товаровед HQ", "Ручной VLOOKUP и сопоставление")
+
+System_Boundary(store, "Магазин — повторяется в сети") {
+ Container(pos, "Толстый POS / back-office", "Desktop; встроенные драйверы", "Логика кассы, прямое управление периферией")
+ ContainerDb(db, "Local DB", "MS SQL / PostgreSQL", "Локальный сервер: товары, цены, чеки; SPOF")
+ Container(importer, "Импорт прайса", "Локальная функция обмена", "Применяет ночной XML к локальной БД")
+ System_Ext(fiscal, "Фискальный регистратор", "ККТ / ФН; чек без облачного вызова")
+ System_Ext(terminal, "Банковский терминал", "Модели и протоколы зависят от купленной сети")
+}
+System_Boundary(hq, "HQ — on-premises по описанию кейса") {
+ Container(sap, "SAP ERP", "ERP", "Мастер товаров, цены, кадры, финансы")
+ Container(files, "Обмен файлами", "Email / CSV / XLS / XML / FTP", "Ручной перенос и ночной пакет")
+ Container(promo, "Promo Engine", "Собственная система", "Единые промо; интерфейсы не установлены")
+ Container(fulfill, "Smart Fulfillment", "Собственная система", "Омниканальная логистика / Click & Collect")
+}
+System_Ext(loyalty, "Online backend лояльности", "Реализация неизвестна; тайм-аут при отсутствии сети")
+System_Ext(bank, "Эквайер", "Канал терминала требует проверки")
+
+Rel(cashier, pos, "Работа с кассой", "UI")
+Rel(pos, db, "Цены / чеки", "Sync local SQL")
+Rel(pos, fiscal, "Фискализация / печать", "COM / USB driver")
+Rel(pos, terminal, "Инициация оплаты", "Встроенный vendor driver")
+Rel(terminal, bank, "Платёж", "Протокол эквайера")
+Rel(pos, loyalty, "Бонусы; online-зависимость", "Протокол не подтверждён")
+Rel(engineer, db, "Снимает экспорт", "CSV / XLS")
+Rel(engineer, files, "Отправляет выгрузку", "Email")
+Rel(files, merch, "Исходные строки", "Excel")
+Rel(merch, sap, "Сопоставляет и импортирует", "Ручной файл")
+Rel(sap, files, "Пакет прайс-листа в 02:00", "XML / FTP")
+Rel(files, importer, "Ночной пакет", "FTP")
+Rel(importer, db, "Обновляет справочник", "Local write")
+
+legend bottom
+  Исправлено: ночной FTP/XML вместо недоказанного REST real-time; SAP в HQ on-premises.
+  Реализация лояльности, обратный обмен продаж и интерфейсы Promo/Fulfillment неизвестны.
+  Offline cash наблюдается; отказ local DB останавливает магазин (INC-8433).
+  Группы показывают место размещения; контейнеры — приложения и хранилища.
+endlegend
+@enduml
