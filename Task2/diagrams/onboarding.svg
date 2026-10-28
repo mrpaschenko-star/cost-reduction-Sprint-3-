@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2280" height="1610" viewBox="0 0 2280 1610">
+<style>text{font-family:Arial,"DejaVu Sans",sans-serif}</style>
+<rect width="2280" height="1610" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8 Z" fill="#26374D"/></marker><marker id="open" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="white" stroke="#2B7297"/></marker></defs>
+<rect x="70" y="80" width="1990" height="250" fill="#FBFCFE" stroke="#596A80" stroke-width="1.5"/>
+<rect x="70" y="80" width="55" height="250" fill="#E7EEF6" stroke="#596A80"/>
+<text transform="translate(104 205.0) rotate(-90)" text-anchor="middle" font-size="17" fill="#183B56">Магазин / Store Ops</text>
+<rect x="70" y="370" width="1990" height="460" fill="#FBFCFE" stroke="#596A80" stroke-width="1.5"/>
+<rect x="70" y="370" width="55" height="460" fill="#E7EEF6" stroke="#596A80"/>
+<text transform="translate(104 600.0) rotate(-90)" text-anchor="middle" font-size="17" fill="#183B56">Платформа онбординга</text>
+<rect x="70" y="870" width="1990" height="150" fill="#FBFCFE" stroke="#596A80" stroke-width="1.5"/>
+<rect x="70" y="870" width="55" height="150" fill="#E7EEF6" stroke="#596A80"/>
+<text transform="translate(104 945.0) rotate(-90)" text-anchor="middle" font-size="17" fill="#183B56">ИИ-сервис</text>
+<rect x="70" y="1060" width="1990" height="150" fill="#FBFCFE" stroke="#596A80" stroke-width="1.5"/>
+<rect x="70" y="1060" width="55" height="150" fill="#E7EEF6" stroke="#596A80"/>
+<text transform="translate(104 1135.0) rotate(-90)" text-anchor="middle" font-size="17" fill="#183B56">Товаровед HQ</text>
+<rect x="70" y="1250" width="1990" height="240" fill="#FBFCFE" stroke="#596A80" stroke-width="1.5"/>
+<rect x="70" y="1250" width="55" height="240" fill="#E7EEF6" stroke="#596A80"/>
+<text transform="translate(104 1370.0) rotate(-90)" text-anchor="middle" font-size="17" fill="#183B56">SAP ERP</text>
+<polyline points="182,160 220,160" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="400,160 450,160" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="630,160 700,160" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="880,160 940,160" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="990,160 1040,160" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1007.6" y="138.0" width="14.8" height="19" fill="white" opacity="0.94"/>
+<text x="1015.0" y="152.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1015.0" dy="0">Да</tspan></text>
+<polyline points="965,185 965,265 890,265" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="916.4" y="243.0" width="22.200000000000003" height="19" fill="white" opacity="0.94"/>
+<text x="927.5" y="257.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="927.5" dy="0">Нет</tspan></text>
+<polyline points="710,265 540,265 540,195" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1220,160 1280,160" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1330,160 1490,160" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1402.6" y="138.0" width="14.8" height="19" fill="white" opacity="0.94"/>
+<text x="1410.0" y="152.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1410.0" dy="0">Да</tspan></text>
+<polyline points="1305,185 1305,235" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1293.9" y="188.0" width="22.200000000000003" height="19" fill="white" opacity="0.94"/>
+<text x="1305.0" y="202.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1305.0" dy="0">Нет</tspan></text>
+<polyline points="1290,265 1130,265 1130,195" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="182,435 230,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="410,435 455,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="505,435 550,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="520.1" y="413.0" width="14.8" height="19" fill="white" opacity="0.94"/>
+<text x="527.5" y="427.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="527.5" dy="0">Да</tspan></text>
+<polyline points="480,460 480,690 630,690 630,715" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="543.9" y="668.0" width="22.200000000000003" height="19" fill="white" opacity="0.94"/>
+<text x="555.0" y="682.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="555.0" dy="0">Нет</tspan></text>
+<polyline points="730,435 790,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="970,435 1030,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1210,435 1270,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1450,435 1510,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1690,435 1750,435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1840,470 1840,580" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1815,605 1685,605" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1742.6" y="583.0" width="14.8" height="19" fill="white" opacity="0.94"/>
+<text x="1750.0" y="597.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1750.0" dy="0">Да</tspan></text>
+<polyline points="1840,630 1840,790 630,790 630,785" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1223.9" y="768.0" width="22.200000000000003" height="19" fill="white" opacity="0.94"/>
+<text x="1235.0" y="782.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1235.0" dy="0">Нет</tspan></text>
+<polyline points="1505,605 1445,605" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1265,605 1185,605" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1135,605 1080,605" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1100.1" y="583.0" width="14.8" height="19" fill="white" opacity="0.94"/>
+<text x="1107.5" y="597.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1107.5" dy="0">Да</tspan></text>
+<polyline points="1160,630 1160,750 720,750" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="928.9" y="728.0" width="22.200000000000003" height="19" fill="white" opacity="0.94"/>
+<text x="940.0" y="742.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="940.0" dy="0">Нет</tspan></text>
+<polyline points="900,605 832,605" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="540,750 482,750" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="712,945 780,945" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1020,945 1110,945" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1320,945 1400,945" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1292,1135 1350,1135" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1600,1135 1690,1135" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1900,1135 1960,1135" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="612,1335 680,1335" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="900,1335 950,1335" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1000,1335 1050,1335" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1017.6" y="1313.0" width="14.8" height="19" fill="white" opacity="0.94"/>
+<text x="1025.0" y="1327.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1025.0" dy="0">Да</tspan></text>
+<polyline points="975,1360 975,1435 1050,1435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<rect x="1001.4" y="1413.0" width="22.200000000000003" height="19" fill="white" opacity="0.94"/>
+<text x="1012.5" y="1427.0" font-size="14" text-anchor="middle" fill="#26374D"><tspan x="1012.5" dy="0">Нет</tspan></text>
+<polyline points="1260,1335 1350,1335" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1570,1335 1650,1335" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="1260,1435 1370,1435" fill="none" stroke-width="1.7" stroke="#26374D" marker-end="url(#arrow)"/>
+<polyline points="540,195 540,350 166,350 166,419" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="540" cy="195" r="4" fill="white" stroke="#2B7297"/>
+<rect x="301.2" y="328.0" width="103.60000000000001" height="19" fill="white" opacity="0.94"/>
+<text x="353.0" y="342.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="353.0" dy="0">CSV/XLS + hash</tspan></text>
+<polyline points="880,470 880,850 696,850 696,929" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="880" cy="470" r="4" fill="white" stroke="#2B7297"/>
+<rect x="691.8" y="828.0" width="192.4" height="19" fill="white" opacity="0.94"/>
+<text x="788.0" y="842.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="788.0" dy="0">Кандидаты + master_version</tspan></text>
+<polyline points="1215,910 1215,850 1115,850 1115,470" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="1215" cy="910" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1102.1" y="828.0" width="125.80000000000001" height="19" fill="white" opacity="0.94"/>
+<text x="1165.0" y="842.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1165.0" dy="0">Ответ / ошибка ИИ</tspan></text>
+<polyline points="1600,400 1600,355 2070,355 2070,1040 1276,1040 1276,1119" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="1600" cy="400" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1569.4" y="1018.0" width="207.20000000000002" height="19" fill="white" opacity="0.94"/>
+<text x="1673.0" y="1032.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1673.0" dy="0">Проверка exceptions + sample</tspan></text>
+<polyline points="1795,1100 2020,1100 2020,505 1840,505 1840,470" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="1795" cy="1100" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1870.5" y="1078.0" width="74.0" height="19" fill="white" opacity="0.94"/>
+<text x="1907.5" y="1092.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1907.5" dy="0">Решение HQ</tspan></text>
+<polyline points="1595,640 2100,640 2100,1230 596,1230 596,1319" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="1595" cy="640" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1270.3" y="1208.0" width="155.4" height="19" fill="white" opacity="0.94"/>
+<text x="1348.0" y="1222.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1348.0" dy="0">Batch mapping + audit</tspan></text>
+<polyline points="1460,1300 2140,1300 2140,675 1355,675 1355,640" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="1460" cy="1300" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1684.6" y="653.0" width="125.80000000000001" height="19" fill="white" opacity="0.94"/>
+<text x="1747.5" y="667.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1747.5" dy="0">Manifest / status</tspan></text>
+<polyline points="1260,1435 2170,1435 2170,700 1385,700 1385,640" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="1260" cy="1435" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1681.7" y="1413.0" width="66.60000000000001" height="19" fill="white" opacity="0.94"/>
+<text x="1715.0" y="1427.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1715.0" dy="0">Rejection</tspan></text>
+<polyline points="990,570 990,540 2200,540 2200,60 790,60 790,125" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="990" cy="570" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1439.5" y="38.0" width="111.0" height="19" fill="white" opacity="0.94"/>
+<text x="1495.0" y="52.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1495.0" dy="0">Версия каталога</tspan></text>
+<polyline points="630,785 630,815 2230,815 2230,35 820,35 820,125" fill="none" stroke-width="1.7" stroke="#2B7297" stroke-dasharray="7 5" marker-end="url(#open)"/>
+<circle cx="630" cy="785" r="4" fill="white" stroke="#2B7297"/>
+<rect x="1378.2" y="793.0" width="103.60000000000001" height="19" fill="white" opacity="0.94"/>
+<text x="1430.0" y="807.0" font-size="14" text-anchor="middle" fill="#2B7297"><tspan x="1430.0" dy="0">Причины отказа</tspan></text>
+<polyline points="310.0,195 320,235" fill="none" stroke="#68788C" stroke-dasharray="3 4"/>
+<polyline points="1595.0,640 1560,715" fill="none" stroke="#68788C" stroke-dasharray="3 4"/>
+<circle cx="166" cy="160" r="16" fill="white" stroke="#26374D" stroke-width="1.6"/>
+<text x="166" y="197" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="166" dy="0">Начать</tspan></text>
+<rect x="220" y="125" width="180" height="70" rx="10" fill="#E6F1FA" stroke="#26374D" stroke-width="1.5"/>
+<circle cx="237" cy="137" r="4" fill="none" stroke="#26374D"/><path d="M237 141 v8 M230 146 l7 -5 l7 5" fill="none" stroke="#26374D"/>
+<text x="310.0" y="157" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="310.0" dy="0">Экспорт данных и</tspan><tspan x="310.0" dy="19">профиль устройств</tspan></text>
+<rect x="450" y="125" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M459 133 h18 v12 h-18 Z M459 133 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M460 134 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="540.0" y="157" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="540.0" dy="0">Загрузить пакет</tspan></text>
+<rect x="700" y="125" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M709 133 h18 v12 h-18 Z M709 133 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="790.0" y="157" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="790.0" dy="0">Получить результат</tspan></text>
+<path d="M965 135 L990 160 L965 185 L940 160 Z" fill="#FFF4D6" stroke="#8A6F28" stroke-width="1.5"/>
+<text x="965" y="167" font-size="21" text-anchor="middle" fill="#172B4D"><tspan x="965" dy="0">X</tspan></text>
+<text x="965" y="123" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="965" dy="0">Пакет выпущен?</tspan></text>
+<rect x="1040" y="125" width="180" height="70" rx="10" fill="#E6F1FA" stroke="#26374D" stroke-width="1.5"/>
+<circle cx="1057" cy="137" r="4" fill="none" stroke="#26374D"/><path d="M1057 141 v8 M1050 146 l7 -5 l7 5" fill="none" stroke="#26374D"/>
+<text x="1130.0" y="157" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1130.0" dy="0">Проверить цены, HAL и</tspan><tspan x="1130.0" dy="19">offline cash</tspan></text>
+<path d="M1305 135 L1330 160 L1305 185 L1280 160 Z" fill="#FFF4D6" stroke="#8A6F28" stroke-width="1.5"/>
+<text x="1305" y="167" font-size="21" text-anchor="middle" fill="#172B4D"><tspan x="1305" dy="0">X</tspan></text>
+<text x="1305" y="123" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1305" dy="0">Тест пройден?</tspan></text>
+<circle cx="1506" cy="160" r="16" fill="white" stroke="#26374D" stroke-width="4"/>
+<text x="1506" y="197" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1506" dy="0">Магазин открыт</tspan></text>
+<rect x="710" y="235" width="180" height="60" rx="10" fill="#E6F1FA" stroke="#26374D" stroke-width="1.5"/>
+<circle cx="727" cy="247" r="4" fill="none" stroke="#26374D"/><path d="M727 251 v8 M720 256 l7 -5 l7 5" fill="none" stroke="#26374D"/>
+<text x="800.0" y="267" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="800.0" dy="0">Исправить данные /</tspan><tspan x="800.0" dy="19">revision</tspan></text>
+<rect x="1290" y="235" width="210" height="60" rx="10" fill="#E6F1FA" stroke="#26374D" stroke-width="1.5"/>
+<circle cx="1307" cy="247" r="4" fill="none" stroke="#26374D"/><path d="M1307 251 v8 M1300 256 l7 -5 l7 5" fill="none" stroke="#26374D"/>
+<text x="1395.0" y="267" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1395.0" dy="0">Устранить проблему</tspan><tspan x="1395.0" dy="19">устройства</tspan></text>
+<circle cx="166" cy="435" r="16" fill="white" stroke="#26374D" stroke-width="1.6"/>
+<path d="M157 429 h18 v12 h-18 Z M157 429 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="166" y="472" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="166" dy="0">Пакет принят</tspan></text>
+<rect x="230" y="400" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<text x="247" y="422" font-size="20" text-anchor="middle" fill="#172B4D"><tspan x="247" dy="0">⚙</tspan></text>
+<text x="320.0" y="432" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="320.0" dy="0">Проверить файл, права</tspan><tspan x="320.0" dy="19">и checksum</tspan></text>
+<path d="M480 410 L505 435 L480 460 L455 435 Z" fill="#FFF4D6" stroke="#8A6F28" stroke-width="1.5"/>
+<text x="480" y="442" font-size="21" text-anchor="middle" fill="#172B4D"><tspan x="480" dy="0">X</tspan></text>
+<text x="480" y="398" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="480" dy="0">Вход корректен?</tspan></text>
+<rect x="550" y="400" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<text x="567" y="422" font-size="20" text-anchor="middle" fill="#172B4D"><tspan x="567" dy="0">⚙</tspan></text>
+<text x="640.0" y="432" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="640.0" dy="0">Нормализация, exact</tspan><tspan x="640.0" dy="19">match и кандидаты</tspan></text>
+<rect x="790" y="400" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M799 408 h18 v12 h-18 Z M799 408 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M800 409 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="880.0" y="432" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="880.0" dy="0">Передать остаток ИИ</tspan></text>
+<rect x="1030" y="400" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1039 408 h18 v12 h-18 Z M1039 408 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="1120.0" y="432" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1120.0" dy="0">Получить кандидатов /</tspan><tspan x="1120.0" dy="19">статус</tspan></text>
+<rect x="1270" y="400" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1279 408 h18 v14 h-18 Z M1279 413 h18 M1285 408 v14" fill="none" stroke="#26374D"/>
+<text x="1360.0" y="432" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1360.0" dy="0">Hard rules; auto /</tspan><tspan x="1360.0" dy="19">exceptions; выборка</tspan></text>
+<rect x="1510" y="400" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1519 408 h18 v12 h-18 Z M1519 408 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M1520 409 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="1600.0" y="432" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1600.0" dy="0">Исключения +</tspan><tspan x="1600.0" dy="19">контрольная выборка</tspan></text>
+<rect x="1750" y="400" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1759 408 h18 v12 h-18 Z M1759 408 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="1840.0" y="432" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1840.0" dy="0">Принять решение</tspan><tspan x="1840.0" dy="19">товароведа</tspan></text>
+<path d="M1840 580 L1865 605 L1840 630 L1815 605 Z" fill="#FFF4D6" stroke="#8A6F28" stroke-width="1.5"/>
+<text x="1840" y="612" font-size="21" text-anchor="middle" fill="#172B4D"><tspan x="1840" dy="0">X</tspan></text>
+<text x="1840" y="568" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1840" dy="0">Quality gate?</tspan></text>
+<rect x="1505" y="570" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1514 578 h18 v12 h-18 Z M1514 578 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M1515 579 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="1595.0" y="602" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1595.0" dy="0">Передать mapping в ERP</tspan><tspan x="1595.0" dy="19">staging</tspan></text>
+<rect x="1265" y="570" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1274 578 h18 v12 h-18 Z M1274 578 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="1355.0" y="602" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1355.0" dy="0">Получить manifest /</tspan><tspan x="1355.0" dy="19">отказ ERP</tspan></text>
+<path d="M1160 580 L1185 605 L1160 630 L1135 605 Z" fill="#FFF4D6" stroke="#8A6F28" stroke-width="1.5"/>
+<text x="1160" y="612" font-size="21" text-anchor="middle" fill="#172B4D"><tspan x="1160" dy="0">X</tspan></text>
+<text x="1160" y="568" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1160" dy="0">ERP выпустила?</tspan></text>
+<rect x="900" y="570" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M909 578 h18 v12 h-18 Z M909 578 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M910 579 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="990.0" y="602" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="990.0" dy="0">Отправить версию</tspan><tspan x="990.0" dy="19">каталога</tspan></text>
+<circle cx="816" cy="605" r="16" fill="white" stroke="#26374D" stroke-width="4"/>
+<text x="816" y="642" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="816" dy="0">Пакет выпущен</tspan></text>
+<rect x="540" y="715" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M549 723 h18 v12 h-18 Z M549 723 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M550 724 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="630.0" y="747" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="630.0" dy="0">Отправить причины</tspan><tspan x="630.0" dy="19">отказа</tspan></text>
+<circle cx="466" cy="750" r="16" fill="white" stroke="#26374D" stroke-width="4"/>
+<text x="466" y="787" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="466" dy="0">На исправление</tspan></text>
+<circle cx="696" cy="945" r="16" fill="white" stroke="#26374D" stroke-width="1.6"/>
+<path d="M687 939 h18 v12 h-18 Z M687 939 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="696" y="982" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="696" dy="0">Запрос</tspan></text>
+<rect x="780" y="910" width="240" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<text x="797" y="932" font-size="20" text-anchor="middle" fill="#172B4D"><tspan x="797" dy="0">⚙</tspan></text>
+<text x="900.0" y="942" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="900.0" dy="0">Извлечь признаки и ранжировать</tspan><tspan x="900.0" dy="19">candidate IDs</tspan></text>
+<rect x="1110" y="910" width="210" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1119 918 h18 v12 h-18 Z M1119 918 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M1120 919 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="1215.0" y="942" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1215.0" dy="0">Кандидаты, score, версия /</tspan><tspan x="1215.0" dy="19">ошибка</tspan></text>
+<circle cx="1416" cy="945" r="16" fill="white" stroke="#26374D" stroke-width="4"/>
+<text x="1416" y="982" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1416" dy="0">Ответ</tspan></text>
+<circle cx="1276" cy="1135" r="16" fill="white" stroke="#26374D" stroke-width="1.6"/>
+<path d="M1267 1129 h18 v12 h-18 Z M1267 1129 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="1276" y="1172" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1276" dy="0">На проверку</tspan></text>
+<rect x="1350" y="1100" width="250" height="70" rx="10" fill="#E6F1FA" stroke="#26374D" stroke-width="1.5"/>
+<circle cx="1367" cy="1112" r="4" fill="none" stroke="#26374D"/><path d="M1367 1116 v8 M1360 1121 l7 -5 l7 5" fill="none" stroke="#26374D"/>
+<text x="1475.0" y="1132" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1475.0" dy="0">Проверить исключения и выборку;</tspan><tspan x="1475.0" dy="19">принять / отклонить</tspan></text>
+<rect x="1690" y="1100" width="210" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1699 1108 h18 v12 h-18 Z M1699 1108 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M1700 1109 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="1795.0" y="1132" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1795.0" dy="0">Mapping + решение + audit</tspan></text>
+<circle cx="1976" cy="1135" r="16" fill="white" stroke="#26374D" stroke-width="4"/>
+<text x="1976" y="1172" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1976" dy="0">Проверено</tspan></text>
+<circle cx="596" cy="1335" r="16" fill="white" stroke="#26374D" stroke-width="1.6"/>
+<path d="M587 1329 h18 v12 h-18 Z M587 1329 l9 7 l9 -7" fill="white" stroke="#26374D"/>
+<text x="596" y="1372" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="596" dy="0">Mapping</tspan></text>
+<rect x="680" y="1300" width="220" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<text x="697" y="1322" font-size="20" text-anchor="middle" fill="#172B4D"><tspan x="697" dy="0">⚙</tspan></text>
+<text x="790.0" y="1332" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="790.0" dy="0">Staging: SKU, единицы,</tspan><tspan x="790.0" dy="19">цены, master_version</tspan></text>
+<path d="M975 1310 L1000 1335 L975 1360 L950 1335 Z" fill="#FFF4D6" stroke="#8A6F28" stroke-width="1.5"/>
+<text x="975" y="1342" font-size="21" text-anchor="middle" fill="#172B4D"><tspan x="975" dy="0">X</tspan></text>
+<text x="975" y="1298" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="975" dy="0">Контроли OK?</tspan></text>
+<rect x="1050" y="1300" width="210" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<text x="1067" y="1322" font-size="20" text-anchor="middle" fill="#172B4D"><tspan x="1067" dy="0">⚙</tspan></text>
+<text x="1155.0" y="1332" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1155.0" dy="0">Идемпотентный commit</tspan><tspan x="1155.0" dy="19">версии</tspan></text>
+<rect x="1350" y="1300" width="220" height="70" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1359 1308 h18 v12 h-18 Z M1359 1308 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M1360 1309 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="1460.0" y="1332" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1460.0" dy="0">Manifest выпущенного</tspan><tspan x="1460.0" dy="19">каталога</tspan></text>
+<circle cx="1666" cy="1335" r="16" fill="white" stroke="#26374D" stroke-width="4"/>
+<text x="1666" y="1372" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1666" dy="0">Готово</tspan></text>
+<rect x="1050" y="1405" width="210" height="60" rx="10" fill="#FFFFFF" stroke="#26374D" stroke-width="1.5"/>
+<path d="M1059 1413 h18 v12 h-18 Z M1059 1413 l9 7 l9 -7" fill="#26374D" stroke="#26374D"/>
+<path d="M1060 1414 l8 6 l8 -6" fill="none" stroke="white"/>
+<text x="1155.0" y="1437" font-size="15" text-anchor="middle" fill="#172B4D"><tspan x="1155.0" dy="0">Отказ + причины</tspan></text>
+<circle cx="1386" cy="1435" r="16" fill="white" stroke="#26374D" stroke-width="4"/>
+<text x="1386" y="1472" font-size="14" text-anchor="middle" fill="#172B4D"><tspan x="1386" dy="0">Не опубликовано</tspan></text>
+<path d="M300 235 h28 l12 12 v38 h-40 Z M328 235 v12 h12" fill="white" stroke="#61738A"/>
+<text x="354" y="253" font-size="14" text-anchor="start" fill="#172B4D"><tspan x="354" dy="0">CSV / XLS</tspan><tspan x="354" dy="18">source_hash</tspan></text>
+<path d="M1540 715 h28 l12 12 v38 h-40 Z M1568 715 v12 h12" fill="white" stroke="#61738A"/>
+<text x="1594" y="733" font-size="14" text-anchor="start" fill="#172B4D"><tspan x="1594" dy="0">Mapping +</tspan><tspan x="1594" dy="18">master_version</tspan></text>
+<text x="80" y="1530" font-size="25" text-anchor="start" fill="#172B4D"><tspan x="80" dy="0">VitaStore — TO-BE onboarding — BPMN 2.0</tspan></text>
+<text x="80" y="1565" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="80" dy="0">Сплошная стрелка: sequence flow внутри пула. Пунктир с кружком: message flow между участниками. Голубая задача: работа человека.</tspan></text>
+<text x="80" y="1592" font-size="16" text-anchor="start" fill="#172B4D"><tspan x="80" dy="0">Quality gate всегда включает исключения и выборку auto-match. Новая revision после отказа; повтор отправки не создаёт повторный импорт.</tspan></text>
+</svg>
