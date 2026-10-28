@@ -1,0 +1,30 @@
+key,value,unit,status,description
+stores,100,stores,case,Расчётный периметр задания; не все 500 магазинов сети
+months,36,months,case,Горизонт три года
+lanes_per_store,2,lanes,assumption,Кассовых мест на магазин
+legacy_refresh_share,0.20,share_per_year,assumption,Планово заменяемая доля локальных серверов ежегодно
+legacy_server_price,150000,RUB_per_server,assumption,Будущая замена сервера; прошлые покупки исключены
+legacy_license,3000,RUB_store_month,assumption,Совокупные продлеваемые лицензии кассы Windows SQL; не подтверждённый тариф
+legacy_support,18000,RUB_store_month,assumption,Распределённый ФОТ поддержки с начислениями
+legacy_visits,4000,RUB_store_month,assumption,Выездной сервис и командировки без ФОТ уже включённого в поддержку
+legacy_network,2000,RUB_store_month,assumption,Основной канал связи
+legacy_power,400,RUB_store_month,assumption,Дополнительное питание локального сервера
+legacy_repairs,1000,RUB_store_month,assumption,Ремонт и запчасти кроме плановой замены
+tablet_price,30000,RUB_per_tablet,assumption,Управляемый планшет с поддерживаемым HAL
+tablet_spares,0.10,share,assumption,Резерв планшетов 10 процентов
+pos_saas,5000,RUB_store_month,assumption,Суммарная подписка на две кассы; запросить коммерческое предложение
+hal_fleet,1000,RUB_store_month,assumption,HAL SDK и MDM; исключить из строки если уже в тарифе POS
+cloud_fixed,100000,RUB_month,assumption,Бюджет PaaS PostgreSQL очередь storage backup monitoring VPN; общий на 100 магазинов
+ai_fixed,20000,RUB_month,assumption,Лимит вычислений SKU matching и контроля; общий на 100 магазинов
+target_support,6000,RUB_store_month,assumption,Достижимо только при сокращении внешнего сервиса или высвобождении оплачиваемой мощности
+target_visits,1000,RUB_store_month,assumption,Остаточные выезды; без двойного учёта ФОТ
+target_network,2500,RUB_store_month,assumption,Основной канал плюс резерв LTE
+target_repairs,500,RUB_store_month,assumption,Ремонт планшетов и периферии; без подписок
+integration_fixed,3000000,RUB_once,assumption,Интеграция POS HAL ERP и проверка оборудования
+sku_fixed,1500000,RUB_once,assumption,Pipeline SKU matching разметка и валидация
+rollout_per_store,15000,RUB_store_once,assumption,Удалённое подключение и первоначальный перенос данных
+training_per_store,5000,RUB_store_once,assumption,Обучение магазина
+unsupported_terminal_share,0.10,share,assumption,Доля магазинов с заменой одного неподдерживаемого терминала
+terminal_replacement,20000,RUB_store_exception,assumption,Замена либо сертифицированный комплект; подтвердить у эквайера
+contingency,0.15,share_of_transition,assumption,Резерв рисков консервативно полностью включён в расходы
+overlap_months,1,months_per_migrated_store,assumption,Двойная эксплуатация в месяц миграции

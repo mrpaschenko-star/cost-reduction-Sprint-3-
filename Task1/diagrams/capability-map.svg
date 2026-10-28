@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="965" viewBox="0 0 1500 965">
+<style>text{font-family:Arial,"DejaVu Sans",sans-serif}</style>
+<rect width="1500" height="965" fill="white"/>
+<text x="40" y="45" font-size="27" text-anchor="start" fill="#172B4D"><tspan x="40" dy="0">VitaStore — карта бизнес-возможностей L1 / L2</tspan></text>
+<text x="40" y="78" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="40" dy="0">Функции магазина и HQ. Цвет отражает доказательства из кейса, а не зрелость приложения.</tspan></text>
+<rect x="40" y="110" width="460" height="350" rx="10" fill="#F8FAFD" stroke="#CED6E2"/>
+<path d="M50 110 H490 Q500 110 500 120 V158 H40 V120 Q40 110 50 110" fill="#183B56"/>
+<text x="58" y="141" font-size="21" text-anchor="start" fill="white"><tspan x="58" dy="0">1 Продажи</tspan></text>
+<rect x="52" y="171" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="64" y="196" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">1.1 Оформление продажи и возврата</tspan></text>
+<rect x="52" y="241" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="64" y="266" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">1.2 Оплата и фискализация</tspan></text>
+<rect x="52" y="311" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="64" y="336" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">1.3 Управление сменой и инкассация</tspan></text>
+<rect x="52" y="381" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="64" y="406" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">1.4 Ценники и информирование о цене</tspan></text>
+<rect x="530" y="110" width="460" height="350" rx="10" fill="#F8FAFD" stroke="#CED6E2"/>
+<path d="M540 110 H980 Q990 110 990 120 V158 H530 V120 Q530 110 540 110" fill="#183B56"/>
+<text x="548" y="141" font-size="21" text-anchor="start" fill="white"><tspan x="548" dy="0">2 Ассортимент</tspan></text>
+<rect x="542" y="171" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="554" y="196" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">2.1 Ведение эталонных SKU</tspan></text>
+<rect x="542" y="241" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="554" y="266" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">2.2 Сопоставление номенклатуры M&amp;A</tspan></text>
+<rect x="542" y="311" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="554" y="336" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">2.3 Управление ценами</tspan></text>
+<rect x="542" y="381" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="554" y="406" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">2.4 Закупки и договоры поставщиков</tspan></text>
+<rect x="1020" y="110" width="460" height="350" rx="10" fill="#F8FAFD" stroke="#CED6E2"/>
+<path d="M1030 110 H1470 Q1480 110 1480 120 V158 H1020 V120 Q1020 110 1030 110" fill="#183B56"/>
+<text x="1038" y="141" font-size="21" text-anchor="start" fill="white"><tspan x="1038" dy="0">3 Маркетинг</tspan></text>
+<rect x="1032" y="171" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="1044" y="196" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">3.1 Планирование и расчёт промо</tspan></text>
+<rect x="1032" y="241" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="1044" y="266" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">3.2 Лояльность и клиентские бонусы</tspan></text>
+<rect x="1032" y="311" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="1044" y="336" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">3.3 Клиентские коммуникации и согласия</tspan></text>
+<rect x="1032" y="381" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="1044" y="406" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">3.4 Анализ продаж и кампаний</tspan></text>
+<rect x="40" y="490" width="460" height="350" rx="10" fill="#F8FAFD" stroke="#CED6E2"/>
+<path d="M50 490 H490 Q500 490 500 500 V538 H40 V500 Q40 490 50 490" fill="#183B56"/>
+<text x="58" y="521" font-size="21" text-anchor="start" fill="white"><tspan x="58" dy="0">4 Запасы и логистика</tspan></text>
+<rect x="52" y="551" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="64" y="576" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">4.1 Приёмка от поставщиков</tspan></text>
+<rect x="52" y="621" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="64" y="646" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">4.2 Остатки и инвентаризация</tspan></text>
+<rect x="52" y="691" width="436" height="61" rx="5" fill="#DDF1E4" stroke="#257144"/>
+<text x="64" y="716" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">4.3 Оркестрация Smart Fulfillment</tspan></text>
+<rect x="52" y="761" width="436" height="61" rx="5" fill="#DDF1E4" stroke="#257144"/>
+<text x="64" y="786" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="64" dy="0">4.4 Click &amp; Collect и выдача заказов</tspan></text>
+<rect x="530" y="490" width="460" height="350" rx="10" fill="#F8FAFD" stroke="#CED6E2"/>
+<path d="M540 490 H980 Q990 490 990 500 V538 H530 V500 Q530 490 540 490" fill="#183B56"/>
+<text x="548" y="521" font-size="21" text-anchor="start" fill="white"><tspan x="548" dy="0">5 Финансы и персонал</tspan></text>
+<rect x="542" y="551" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="554" y="576" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">5.1 Финансовый и налоговый учёт</tspan></text>
+<rect x="542" y="621" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="554" y="646" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">5.2 Кадры и расчёт премий</tspan></text>
+<rect x="542" y="691" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="554" y="716" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">5.3 Сверка эквайринга и кассы</tspan></text>
+<rect x="542" y="761" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="554" y="786" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="554" dy="0">5.4 Управление поставщиками услуг</tspan></text>
+<rect x="1020" y="490" width="460" height="350" rx="10" fill="#F8FAFD" stroke="#CED6E2"/>
+<path d="M1030 490 H1470 Q1480 490 1480 500 V538 H1020 V500 Q1020 490 1030 490" fill="#183B56"/>
+<text x="1038" y="521" font-size="21" text-anchor="start" fill="white"><tspan x="1038" dy="0">6 Развитие и IT</tspan></text>
+<rect x="1032" y="551" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="1044" y="576" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">6.1 Интеграция приобретённого магазина</tspan></text>
+<rect x="1032" y="621" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="1044" y="646" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">6.2 Управление оборудованием и релизами</tspan></text>
+<rect x="1032" y="691" width="436" height="61" rx="5" fill="#FCE4E4" stroke="#B64040"/>
+<text x="1044" y="716" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">6.3 Поддержка и восстановление</tspan></text>
+<rect x="1032" y="761" width="436" height="61" rx="5" fill="#EDF2F8" stroke="#61738A"/>
+<text x="1044" y="786" font-size="17" text-anchor="start" fill="#172B4D"><tspan x="1044" dy="0">6.4 Безопасность и непрерывность</tspan></text>
+<text x="40" y="895" font-size="18" text-anchor="start" fill="#B64040"><tspan x="40" dy="0">R — проблемные / дорогие: 12</tspan></text>
+<text x="560" y="895" font-size="18" text-anchor="start" fill="#257144"><tspan x="560" dy="0">G — конкурентное преимущество: 2</tspan></text>
+<text x="1100" y="895" font-size="18" text-anchor="start" fill="#61738A"><tspan x="1100" dy="0">N — базовые функции: 10</tspan></text>
+<text x="40" y="932" font-size="16" text-anchor="start" fill="#172B4D"><tspan x="40" dy="0">Владельцы, дублирование и обоснования: capability-map.md. Нейтральный цвет не означает нулевую стоимость.</tspan></text>
+</svg>
